@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Roboto:wght@100;300&display=swap');
+
+:root {
+    --almost-black: #111;
+    --accent-color: #13AAFF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+
+@media only screen and (max-width:1024px) {
+    .c-name h1 {
+        font-size: 30px !important;
+    }
+
+    .c-image {
+        text-align: center;
+        width: auto !important;
+    }
+
+    .c-name {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .c-image {
+        position: absolute;
+        text-align: center;
+        width: 234px;
+        height: 234px;
+    }
+
+    .c-name h1 {
+        color: var(--almost-black, #111);
+        font-size: 56px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -1.12px;
+        margin-top: 35px;
+    }
+
+}
+
+
+
+
+.Client_card {
+    max-width: 1160px;
+    min-height: 720px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+    background-image: url(../images/wallpaper.png);
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 50px;
+    padding-top: 144px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.c-image {
+
+    border: solid 6px #fff;
+    border-radius: 82px;
+    top: 127px;
+    background: #fff;
+    padding-left: -11px;
+    padding-top: 5px;
+    overflow: hidden;
+    padding: initial;
+
+}
+
+.info h2 {
+    color: var(--almost-black);
+    font-size: 32px;
+    font-family: Inter;
+
+}
+
+.info_s h2 {
+    color: var(--almost-black);
+    font-size: 24px;
+    font-family: Inter;
+
+}
+
+.info h2 {
+    color: var(--almost-black);
+    font-size: 32px;
+    font-family: Inter;
+
+}
+
+
+
+.info h3 {
+    color: var(--almost-black, #111);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+.details {
+    margin-top: 75px;
+}
+
+.label {
+    color: var(--accent-color);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+
+}
+
+.label_2 {
+    color: var(--almost-black);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.logo {
+    height: 60px;
+
+}
+
+#team {
+    display: inline-block;
+    width: 100%;
+}
+
+.team-name {
+    color: var(--almost-black);
+    font-size: 32px;
+    font-family: Inter;
+    margin-bottom: 0;
+    margin-top: -7px
+}
+
+.user_image {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.footer_label {
+    color: #CECECE;
+    font-size: 10px;
+    font-family: Roboto;
+    line-height: 18px;
+}
+
+#emp_profile{
+    width:100%;
+}
+
+.err_div{
+    width:100%;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.err_div p{
+    color: var(--almost-black);
+    font-size: 32px;
+    font-family: Inter;
+    margin-bottom: 0;
+    margin-top: -7px
+}
+
+
+.err_div  ul {
+    list-style: none;
+}
+
+.err_div  ul li a {
+    
+    color: var(--almost-black);
+    font-size: 32px;
+    font-family: Inter;
+    margin-bottom: 0;
+    margin-top: -7px
+}
